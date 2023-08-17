@@ -23,7 +23,6 @@ function show(event, type) {
 		screenX: event.screenX,
 		screenY: event.screenY,
 		metaKey: event.metaKey,
-		currentTarget: event.currentTarget,
 		type: event.type
 	};
 	
