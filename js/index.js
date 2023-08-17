@@ -70,3 +70,5 @@ document.addEventListener('mousemove', function(event) {
 
 	show(event, 'mousemove');
 });
+
+document.oncontextmenu = (e) => e.preventDefault(); 
